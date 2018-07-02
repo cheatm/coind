@@ -1,1 +1,1 @@
-0 0 * * * /bin/bash /CoinData/routing/sync.sh >> "/logs/sync.`date +\%Y-\%m-\%d`" 2>&1
+0 0 * * * /bin/bash /coind/routing/sync.sh >> "/logs/sync.`date +\%Y-\%m-\%d`" 2>&1

@@ -2,4 +2,4 @@
 
 source /etc/profile
 
-python /CoinData/coind/do_sync.py /CoinData/conf/sync.yml
+python /coind/coind/do_sync.py /coind/conf/sync.yml
