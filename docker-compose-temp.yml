@@ -1,0 +1,9 @@
+version: '3'
+services:
+  coind:
+    container_name: coind
+    build: .
+    image: coind
+    volumes:
+      - "./conf:/conf"
+      - "./logs:/logs"
