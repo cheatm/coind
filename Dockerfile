@@ -18,4 +18,4 @@ RUN crontab /coind/routing/timelist
 
 VOLUME ["/data", "/conf", "/logs"]
 
-CMD ["/usr/sbin/cron" "-f"]
+CMD ["/usr/sbin/cron", "-f"]
